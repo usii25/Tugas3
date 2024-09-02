@@ -3,8 +3,11 @@ package CommunityMemberCase;
  * @author Nama : Karimatuz Zahrah Firdausi
             NIM : 09020623029
  */
+/*Membuat class main untuk menjalankan seluruh program
+*/
 public class Main {
     public static void main(String[] args){
+            //Memanggil objek administrator dan memanggil seluruh method
         Administrator admin = new Administrator();
         admin.setNama("Karimatuz Zahrah Firdausi");
         admin.setEmail("Karimmatuz123@gmail.com");
@@ -19,7 +22,8 @@ public class Main {
         System.out.println("Bekerja pada bagian: "+admin.getbidang());
         System.out.println("Bekerja sebagai: "+admin.getTugas());
         System.out.println("Bertanggung jawab untuk "+admin.getTanggungJawab()+"\n");
-        
+
+            //Memanggil objek Student dan memanggil seluruh method
         Student mhs = new Student();
         mhs.setNama("Abdul");
         mhs.setEmail("abdul22@gmail.com");
@@ -34,7 +38,8 @@ public class Main {
         System.out.println("Fakultas: "+mhs.getFakultas());
         System.out.println("Program Studi: "+mhs.getProdi());
         System.out.println("Semester : "+mhs.getSemester()+"\n");
-        
+
+            //Memanggil objek Alumnus dan memanggil seluruh method
         Alumnus almn = new Alumnus();
         almn.setNama("Ari Wibowo");
         almn.setEmail("Riwibowo123@gmail.com");
