@@ -1,5 +1,4 @@
 package CommunityMemberCase;
-
 /**
  * @author Nama : Karimatuz Zahrah Firdausi
             NIM : 09020623029
