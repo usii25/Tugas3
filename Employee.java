@@ -5,22 +5,18 @@ package CommunityMemberCase;
  */
 
 /*Membuat class Employee yang menjadi child class dari class ComunityMember
-  
+  Pemilihan atribut disesuaikan dengan kebutuhan
 */
 public class Employee extends CommunityMember {
     private String bidang;
     
 
     /**
-     * @return the fakultas
+     * Membuat method untuk memasukkan dan mengeluarkan nilai
      */
     public String getbidang() {
         return bidang;
     }
-
-    /**
-     * @param fakultas the fakultas to set
-     */
     public void setbidang(String bidang) {
         this.bidang = bidang;
     }
