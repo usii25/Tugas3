@@ -7,7 +7,7 @@ package CommunityMemberCase;
   Pemilihan atribut disesuaikan dengan kebutuhan
 */
 public class Administrator extends Faculty{
-    private String TanggungJawab;
+    private String tanggungJawab;
 
     /**
      * Membuat method untuk memasukkan dan mengeluarkan nilai
